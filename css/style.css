@@ -1,0 +1,334 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	color: #1e1f27;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	padding: 20px 90px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-r {
+	display: flex;
+	align-items: center;
+}
+
+.nav-l {
+	display: flex;
+	align-items: center;
+}
+
+.nav__link {
+	margin-left: 20px;
+	font-size: 17px;
+	font-weight: 700;
+	color: #1e1f27;
+	transition: all 0.5s ease;
+}
+
+.nav__link:hover {
+	color: #ff3d9a;
+}
+
+.nav__img {
+	margin-right: 12px;
+}
+.nav__phone {
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.btn {
+	display: flex;
+	width: 117px;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 32px;
+	background: #ff3d9a;
+	border: none;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	transition: all 0.5s ease;
+}
+
+.btn2 {
+	display: flex;
+	width: 200px;
+	margin-left: 32px;
+	padding: 16px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 32px;
+	border: black solid 2px;
+	font-size: 17px;
+	font-weight: 600;
+	transition: all 0.5s ease;
+	color: #1e1f27;
+}
+
+.nav-r > .btn {
+	margin-left: 32px;
+}
+
+.btn:hover {
+	background: #d1317e;
+}
+
+.buttons {
+	display: flex;
+}
+
+hr {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0 90px;
+}
+
+main {
+	display: flex;
+	margin: 80px 0 120px 0;
+	padding: 0 90px;
+}
+
+.main-h1 {
+	font-size: 64px;
+	font-weight: 800;
+	line-height: 120%;
+	letter-spacing: -1.28px;
+}
+.main-p {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 160%;
+}
+
+.main-h3 {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.buttons {
+	display: flex;
+}
+
+.goals {
+	background-color: #1e1f27;
+	padding: 80px 90px;
+}
+
+h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 120%;
+	letter-spacing: -1.12px;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.caption {
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 900;
+	line-height: 160%;
+	margin: 0;
+}
+
+.num {
+	color: #f8db46;
+	text-align: center;
+	font-size: 64px;
+	font-weight: 700;
+	margin: 16px 0;
+}
+
+.fr {
+	align-items: center;
+}
+
+.arrow {
+	border: none;
+	border-radius: 50%;
+	min-width: 44px;
+	height: 44px;
+}
+
+.arrow + .slider-photos {
+	margin: 14px;
+}
+
+.slider {
+	margin: 80px 0;
+	margin-bottom: 0;
+}
+
+.slider-row {
+	display: flex;
+	align-items: center;
+}
+
+.slider-photos {
+	display: flex;
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider-element {
+	margin: 0 12px;
+	min-width: 240px;
+	height: 240px;
+	overflow: hidden;
+}
+
+.slider-element1 {
+	background-color: #f1d06e;
+	border-radius: 32px;
+}
+
+.slider-element2 {
+	border-radius: 32px 240px 240px 240px;
+	background: #04c27f;
+}
+
+.slider-element3 {
+	border-radius: 32px;
+	background: #f5f5f5;
+}
+
+.slider-element4 {
+	border-radius: 32px;
+	background: #5758f1;
+}
+
+img {
+	margin: 0;
+}
+
+.dot {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: none;
+	background: #4b4c52;
+	margin: 0 8px;
+}
+
+.dots {
+	justify-content: center;
+	display: flex;
+	margin-top: 60px;
+}
+
+.donations {
+	background-color: #1e1f27;
+	margin: 0;
+	padding: 0 90px;
+	padding-bottom: 120px;
+}
+
+.donations > h2 {
+	margin: 0;
+	padding: 80px 0;
+}
+
+.card-title {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 160%;
+	margin: 0;
+}
+
+.card {
+	padding: 36px;
+	border-radius: 24px;
+	border: 2px solid #fff;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 40px;
+	row-gap: 60px;
+}
+
+.card-p {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 160%;
+	margin: 0;
+	margin-top: 26px;
+}
+
+.baseline {
+	justify-content: space-between;
+	display: flex;
+}
+
+.info {
+	padding: 80px 90px 120px 90px;
+}
+
+.info > h2 {
+	color: #1e1f27;
+	margin: 0;
+	margin-bottom: 24px;
+}
+
+.info-content {
+	display: flex;
+}
+
+.must > h3 {
+	color: #1e1f27;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 160%;
+	margin-left: 40px;
+}
+
+li {
+	color: #37383f;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 160%;
+	margin-bottom: 20px;
+}
+
+li:last-child {
+	margin-bottom: 32px;
+}
+
+.must {
+	align-content: center;
+}
+
+.btn3 {
+	padding: 16px 32px;
+	border-radius: 32px;
+	background: #1e1f27;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	margin: 0 0 0 40px;
+}
